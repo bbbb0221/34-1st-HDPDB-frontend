@@ -18,7 +18,7 @@ const Nav = () => {
     }
   };
 
-  const fuckingGoHome = () => {
+  const GoHome = () => {
     navigate('/');
   };
   const closeModal = () => {
@@ -35,7 +35,7 @@ const Nav = () => {
   return (
     <div className="nav">
       <div className="nav_menu">
-        <h1 className="header_logo" onClick={fuckingGoHome}>
+        <h1 className="header_logo" onClick={GoHome}>
           <img
             className="leader_logo_image"
             src="/images/logo/dropCI-black.png"
@@ -43,7 +43,7 @@ const Nav = () => {
           />
         </h1>
         <ul className="header_shop_nav">
-          <li className="nav_underLine nav_shop" onClick={fuckingGoHome}>
+          <li className="nav_underLine nav_shop" onClick={GoHome}>
             SHOP
           </li>
           <li className="nav_underLine nav_mechKeys">
